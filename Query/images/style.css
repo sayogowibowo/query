@@ -1,0 +1,229 @@
+/*
+    designed by WebTemplateOcean (http://www.webtemplateocean.com) 
+    released under Creative Commons Attribution-ShareAlike 3.0 license
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #585858;
+   }
+
+h1 {
+    padding: 80px 0 0 100px;
+    font: normal 50px Georgia, Times, serif;
+    line-height: 0px;
+    text-align: justify;
+    letter-spacing: -1px;
+    color: White;
+}
+
+h1 a, h1 a:hover {
+    color: White;
+
+    text-decoration: none;
+}
+
+h2 {
+    padding-left: 15px;
+    font: normal 24px Georgia, Times, serif;
+    color: #566C86;
+}
+
+p {
+    padding: 10px 0;
+    line-height: 2em;
+    text-align: justify;
+}
+
+a {
+    color: #1B80C4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#page {
+    margin: 0 auto;
+    width: 980px;
+    background: White url('images/mai.jpg') repeat-y;
+}
+
+#header {
+    height: 222px;
+    background: #448DC2 url('images/head.jpg') no-repeat top;
+}
+
+#main {
+    padding: 0 30px;
+    background: url('images/mai.jpg') repeat top;
+}
+
+/* sidebar */
+
+#sidebar {
+    float: left;
+    padding: 10px 0 15px 0;
+    width: 220px;
+}
+
+#sidebar h2 {
+    font-size: 20px;
+}
+
+#sidebar p {
+    text-align: left;
+}
+
+#sidebar ul {
+    list-style: none;
+    margin-top: 5px;
+    padding: 10px 5px 20px 15px;
+    background: url('images/sideba.jpg') no-repeat;
+}
+
+#sidebar ul li {
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+
+#sidebar ul li a {
+    margin: 0;
+    padding: 0 0 0 8px;
+}
+
+#sidebar .box {
+    margin-top: 5px;
+    padding: 0  5px 10px 15px;
+    background: url('images/sideba.jpg') no-repeat;
+}
+
+#sidebar .foto {
+    margin-top: 0px;
+    padding: 100px  5px 20px 15px;
+    background: url('images/siluet2.png') no-repeat;
+    background-size: 50%;
+}
+
+/* search form */
+
+#search {
+    height: 50px;
+}
+
+#searchtxt {
+    display: block;
+    float: left;
+    width: 167px;
+    height: 40px;
+    background: #E3EFF6 url('images/searchtxt.gif') no-repeat;
+}
+
+#search input.text {
+    padding: 10px 5px;
+    width: 155px;
+    height: 20px;
+    font: 16px Arial, Helvetica, sans-serif;
+    color: #A9A9A9;
+    background: none;
+    border: none;
+}
+
+#search input.submit {
+    display: block;
+    float: right;
+    width: 53px;
+    height: 40px;
+    background: #BFD9EA url('images/submit.gif') no-repeat;
+    border: none;
+    cursor: pointer;
+}
+
+/* content */
+
+#content {
+    float: right;
+    padding: 10px 0 15px 0;
+    width: 660px;
+}
+
+/* menu */
+
+#menu {
+    height: 48px;
+    padding: 0 0 42px 25px;
+    background: url(images/men.jpg) no-repeat top;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: block;
+    float: left;
+}
+
+#menu ul li a {
+    display: block;
+    float: left;
+    height: 48px;
+    padding: 0 20px;
+    font: 20px/42px Georgia, Times, serif;
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover {
+    color: White;
+    background: url('images/menuver.jpg') repeat-x;
+}
+
+/* post */
+
+.post { 
+}
+
+.entry {
+    margin-top: 4px;
+    padding: 0 15px 24px 15px;
+    background: url('images/post.jpg') no-repeat;
+}
+
+.postmeta {
+    padding: 0 0 0 15px;
+    font-size: 11px;
+    color: #9C9C9C;
+}
+
+.clearing {
+    clear: both;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* footer */
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 980px;
+    background: url('images/foot.jpg') no-repeat top;
+}
+
+#footer p {
+    padding: 5px 0;
+    text-align: center;
+}
+
+#footer a {
+    color: black;
+}
